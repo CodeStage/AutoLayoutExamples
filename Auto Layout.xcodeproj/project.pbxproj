@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B2C92F9170C5B6C005A74C8 /* ALSpringsAndStrutsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C92F8170C5B6C005A74C8 /* ALSpringsAndStrutsView.m */; };
+		7B2C92FC170C5D64005A74C8 /* ALSpringsAndStrutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C92FB170C5D64005A74C8 /* ALSpringsAndStrutsViewController.m */; };
+		7B2C92FE170C5F2B005A74C8 /* ALSpringsAndStrutsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C92FD170C5F2B005A74C8 /* ALSpringsAndStrutsView.xib */; };
+		7B2C9309170C6650005A74C8 /* DCCrossHairView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9301170C6650005A74C8 /* DCCrossHairView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7B2C930A170C6650005A74C8 /* DCFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9303170C6650005A74C8 /* DCFrameView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7B2C930B170C6650005A74C8 /* DCIntrospect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9305170C6650005A74C8 /* DCIntrospect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7B2C930C170C6650005A74C8 /* DCStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9308170C6650005A74C8 /* DCStatusBarOverlay.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7B2C930E170C66E3005A74C8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2C930D170C66E3005A74C8 /* QuartzCore.framework */; };
+		7B2C9311170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9310170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m */; };
 		7B5D13C31700B896006558D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D13C21700B896006558D0 /* UIKit.framework */; };
 		7B5D13C51700B896006558D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D13C41700B896006558D0 /* Foundation.framework */; };
 		7B5D13C71700B896006558D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D13C61700B896006558D0 /* CoreGraphics.framework */; };
@@ -21,6 +30,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B2C92F7170C5B6C005A74C8 /* ALSpringsAndStrutsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSpringsAndStrutsView.h; sourceTree = "<group>"; };
+		7B2C92F8170C5B6C005A74C8 /* ALSpringsAndStrutsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALSpringsAndStrutsView.m; sourceTree = "<group>"; };
+		7B2C92FA170C5D64005A74C8 /* ALSpringsAndStrutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSpringsAndStrutsViewController.h; sourceTree = "<group>"; };
+		7B2C92FB170C5D64005A74C8 /* ALSpringsAndStrutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALSpringsAndStrutsViewController.m; sourceTree = "<group>"; };
+		7B2C92FD170C5F2B005A74C8 /* ALSpringsAndStrutsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALSpringsAndStrutsView.xib; sourceTree = "<group>"; };
+		7B2C9300170C6650005A74C8 /* DCCrossHairView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCrossHairView.h; sourceTree = "<group>"; };
+		7B2C9301170C6650005A74C8 /* DCCrossHairView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCrossHairView.m; sourceTree = "<group>"; };
+		7B2C9302170C6650005A74C8 /* DCFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFrameView.h; sourceTree = "<group>"; };
+		7B2C9303170C6650005A74C8 /* DCFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFrameView.m; sourceTree = "<group>"; };
+		7B2C9304170C6650005A74C8 /* DCIntrospect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCIntrospect.h; sourceTree = "<group>"; };
+		7B2C9305170C6650005A74C8 /* DCIntrospect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCIntrospect.m; sourceTree = "<group>"; };
+		7B2C9306170C6650005A74C8 /* DCIntrospectSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCIntrospectSettings.h; sourceTree = "<group>"; };
+		7B2C9307170C6650005A74C8 /* DCStatusBarOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCStatusBarOverlay.h; sourceTree = "<group>"; };
+		7B2C9308170C6650005A74C8 /* DCStatusBarOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCStatusBarOverlay.m; sourceTree = "<group>"; };
+		7B2C930D170C66E3005A74C8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7B2C930F170C6EE4005A74C8 /* ALConstraintsInCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALConstraintsInCodeViewController.h; sourceTree = "<group>"; };
+		7B2C9310170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALConstraintsInCodeViewController.m; sourceTree = "<group>"; };
 		7B5D13BF1700B896006558D0 /* Auto Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5D13C21700B896006558D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7B5D13C41700B896006558D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2C930E170C66E3005A74C8 /* QuartzCore.framework in Frameworks */,
 				7B5D13C31700B896006558D0 /* UIKit.framework in Frameworks */,
 				7B5D13C51700B896006558D0 /* Foundation.framework in Frameworks */,
 				7B5D13C71700B896006558D0 /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +80,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B2C92FF170C6650005A74C8 /* DCIntrospect */ = {
+			isa = PBXGroup;
+			children = (
+				7B2C9300170C6650005A74C8 /* DCCrossHairView.h */,
+				7B2C9301170C6650005A74C8 /* DCCrossHairView.m */,
+				7B2C9302170C6650005A74C8 /* DCFrameView.h */,
+				7B2C9303170C6650005A74C8 /* DCFrameView.m */,
+				7B2C9304170C6650005A74C8 /* DCIntrospect.h */,
+				7B2C9305170C6650005A74C8 /* DCIntrospect.m */,
+				7B2C9306170C6650005A74C8 /* DCIntrospectSettings.h */,
+				7B2C9307170C6650005A74C8 /* DCStatusBarOverlay.h */,
+				7B2C9308170C6650005A74C8 /* DCStatusBarOverlay.m */,
+			);
+			path = DCIntrospect;
+			sourceTree = "<group>";
+		};
 		7B5D13B61700B896006558D0 = {
 			isa = PBXGroup;
 			children = (
+				7B2C930D170C66E3005A74C8 /* QuartzCore.framework */,
 				7B5D13C81700B896006558D0 /* Auto Layout */,
 				7B5D13C11700B896006558D0 /* Frameworks */,
 				7B5D13C01700B896006558D0 /* Products */,
@@ -73,6 +117,7 @@
 		7B5D13C11700B896006558D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B2C92FF170C6650005A74C8 /* DCIntrospect */,
 				7B5D13C21700B896006558D0 /* UIKit.framework */,
 				7B5D13C41700B896006558D0 /* Foundation.framework */,
 				7B5D13C61700B896006558D0 /* CoreGraphics.framework */,
@@ -83,12 +128,19 @@
 		7B5D13C81700B896006558D0 /* Auto Layout */ = {
 			isa = PBXGroup;
 			children = (
+				7B5D13C91700B896006558D0 /* Supporting Files */,
 				7B5D13D11700B896006558D0 /* ALAppDelegate.h */,
 				7B5D13D21700B896006558D0 /* ALAppDelegate.m */,
 				7B5D13DA1700B896006558D0 /* MainStoryboard.storyboard */,
 				7B5D13DD1700B896006558D0 /* ALViewController.h */,
 				7B5D13DE1700B896006558D0 /* ALViewController.m */,
-				7B5D13C91700B896006558D0 /* Supporting Files */,
+				7B2C92F7170C5B6C005A74C8 /* ALSpringsAndStrutsView.h */,
+				7B2C92F8170C5B6C005A74C8 /* ALSpringsAndStrutsView.m */,
+				7B2C92FD170C5F2B005A74C8 /* ALSpringsAndStrutsView.xib */,
+				7B2C92FA170C5D64005A74C8 /* ALSpringsAndStrutsViewController.h */,
+				7B2C92FB170C5D64005A74C8 /* ALSpringsAndStrutsViewController.m */,
+				7B2C930F170C6EE4005A74C8 /* ALConstraintsInCodeViewController.h */,
+				7B2C9310170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m */,
 			);
 			path = "Auto Layout";
 			sourceTree = "<group>";
@@ -164,6 +216,7 @@
 				7B5D13D71700B896006558D0 /* Default@2x.png in Resources */,
 				7B5D13D91700B896006558D0 /* Default-568h@2x.png in Resources */,
 				7B5D13DC1700B896006558D0 /* MainStoryboard.storyboard in Resources */,
+				7B2C92FE170C5F2B005A74C8 /* ALSpringsAndStrutsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +230,13 @@
 				7B5D13CF1700B896006558D0 /* main.m in Sources */,
 				7B5D13D31700B896006558D0 /* ALAppDelegate.m in Sources */,
 				7B5D13DF1700B896006558D0 /* ALViewController.m in Sources */,
+				7B2C92F9170C5B6C005A74C8 /* ALSpringsAndStrutsView.m in Sources */,
+				7B2C92FC170C5D64005A74C8 /* ALSpringsAndStrutsViewController.m in Sources */,
+				7B2C9309170C6650005A74C8 /* DCCrossHairView.m in Sources */,
+				7B2C930A170C6650005A74C8 /* DCFrameView.m in Sources */,
+				7B2C930B170C6650005A74C8 /* DCIntrospect.m in Sources */,
+				7B2C930C170C6650005A74C8 /* DCStatusBarOverlay.m in Sources */,
+				7B2C9311170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +284,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -248,6 +309,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -299,6 +361,7 @@
 				7B5D13E41700B896006558D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
