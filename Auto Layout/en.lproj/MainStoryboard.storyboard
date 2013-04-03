@@ -51,16 +51,78 @@
             </objects>
             <point key="canvasLocation" x="838" y="799"/>
         </scene>
-        <!--View Controller - Leer-->
+        <!--View Controller - Minimal Constraints-->
         <scene sceneID="NGx-nW-8Yg">
             <objects>
                 <viewController id="Fhz-UH-2pc" customClass="ALViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="noD-mf-Tlx">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKa-gA-EDi">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Leading + Trailing">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odS-nB-IcM">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" type="user" id="X8D-Sa-V9m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Width + Trailing">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5E-eh-Sb8">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" type="user" id="p8d-p8-Mjp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Width + Leading">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJm-VL-WRx">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" type="user" id="98I-5d-GdO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Width + Center">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="odS-nB-IcM" secondAttribute="trailing" constant="20" symbolic="YES" type="user" id="05l-Ho-Klt"/>
+                            <constraint firstItem="S5E-eh-Sb8" firstAttribute="top" secondItem="odS-nB-IcM" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="2gJ-v3-q96"/>
+                            <constraint firstItem="CKa-gA-EDi" firstAttribute="leading" secondItem="noD-mf-Tlx" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="8th-lj-dUi"/>
+                            <constraint firstItem="BJm-VL-WRx" firstAttribute="top" secondItem="S5E-eh-Sb8" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="S9J-Hc-hZY"/>
+                            <constraint firstItem="S5E-eh-Sb8" firstAttribute="leading" secondItem="noD-mf-Tlx" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="U8f-kL-onc"/>
+                            <constraint firstItem="CKa-gA-EDi" firstAttribute="top" secondItem="noD-mf-Tlx" secondAttribute="top" constant="20" symbolic="YES" type="user" id="VI2-BA-jw2"/>
+                            <constraint firstAttribute="trailing" secondItem="CKa-gA-EDi" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="WGu-F2-7z7"/>
+                            <constraint firstItem="odS-nB-IcM" firstAttribute="top" secondItem="CKa-gA-EDi" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="jqC-7e-7ud"/>
+                            <constraint firstAttribute="centerX" secondItem="BJm-VL-WRx" secondAttribute="centerX" type="user" id="lcx-ey-SD9"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Leer" id="CFV-M8-eOa"/>
+                    <navigationItem key="navigationItem" title="Minimal Constraints" id="CFV-M8-eOa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J4o-S7-Lio" sceneMemberID="firstResponder"/>
             </objects>
@@ -84,7 +146,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Leer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ire-IL-pcD">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Minimal Constraints" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ire-IL-pcD">
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
