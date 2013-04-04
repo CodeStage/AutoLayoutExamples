@@ -185,7 +185,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="Animation" id="r5X-B8-YfW"/>
                     <connections>
-                        <outlet property="animatedView" destination="jXA-eT-suU" id="GSA-tm-Elv"/>
                         <outlet property="heightConstraint" destination="oYg-I1-9jC" id="00V-4V-ip7"/>
                         <outlet property="widthConstraint" destination="dhU-FY-84h" id="JpJ-WF-uGd"/>
                     </connections>
@@ -679,7 +678,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ALAnimationViewController.h"/>
             <relationships>
                 <relationship kind="action" name="toggleAnimation:"/>
-                <relationship kind="outlet" name="animatedView" candidateClass="UIView"/>
                 <relationship kind="outlet" name="heightConstraint" candidateClass="NSLayoutConstraint"/>
                 <relationship kind="outlet" name="widthConstraint" candidateClass="NSLayoutConstraint"/>
             </relationships>

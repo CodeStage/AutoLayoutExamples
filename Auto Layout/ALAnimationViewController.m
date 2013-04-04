@@ -11,7 +11,6 @@
 
 @interface ALAnimationViewController ()
 
-@property (nonatomic, weak) IBOutlet UIView *animatedView;
 @property (nonatomic) BOOL animationDirectionGrowing;
 
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint *widthConstraint;
