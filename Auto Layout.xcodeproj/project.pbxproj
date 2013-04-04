@@ -13,7 +13,6 @@
 		7B2C930B170C6650005A74C8 /* DCIntrospect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9305170C6650005A74C8 /* DCIntrospect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7B2C930C170C6650005A74C8 /* DCStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9308170C6650005A74C8 /* DCStatusBarOverlay.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7B2C930E170C66E3005A74C8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2C930D170C66E3005A74C8 /* QuartzCore.framework */; };
-		7B2C9311170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9310170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m */; };
 		7B2C9314170D7D66005A74C8 /* ALIntrinsicSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9313170D7D66005A74C8 /* ALIntrinsicSizeViewController.m */; };
 		7B2C9317170D8751005A74C8 /* ALAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9316170D8751005A74C8 /* ALAnimationViewController.m */; };
 		7B2C931A170D96D2005A74C8 /* ALTwoButtonsInCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9319170D96D2005A74C8 /* ALTwoButtonsInCodeViewController.m */; };
@@ -43,8 +42,6 @@
 		7B2C9307170C6650005A74C8 /* DCStatusBarOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCStatusBarOverlay.h; sourceTree = "<group>"; };
 		7B2C9308170C6650005A74C8 /* DCStatusBarOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCStatusBarOverlay.m; sourceTree = "<group>"; };
 		7B2C930D170C66E3005A74C8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		7B2C930F170C6EE4005A74C8 /* ALConstraintsInCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALConstraintsInCodeViewController.h; sourceTree = "<group>"; };
-		7B2C9310170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALConstraintsInCodeViewController.m; sourceTree = "<group>"; };
 		7B2C9312170D7D66005A74C8 /* ALIntrinsicSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALIntrinsicSizeViewController.h; sourceTree = "<group>"; };
 		7B2C9313170D7D66005A74C8 /* ALIntrinsicSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALIntrinsicSizeViewController.m; sourceTree = "<group>"; };
 		7B2C9315170D8751005A74C8 /* ALAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAnimationViewController.h; sourceTree = "<group>"; };
@@ -140,8 +137,6 @@
 				7B5D13DE1700B896006558D0 /* ALViewController.m */,
 				7B2C92FA170C5D64005A74C8 /* ALAmbiguousLayoutViewController.h */,
 				7B2C92FB170C5D64005A74C8 /* ALAmbiguousLayoutViewController.m */,
-				7B2C930F170C6EE4005A74C8 /* ALConstraintsInCodeViewController.h */,
-				7B2C9310170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m */,
 				7B2C9312170D7D66005A74C8 /* ALIntrinsicSizeViewController.h */,
 				7B2C9313170D7D66005A74C8 /* ALIntrinsicSizeViewController.m */,
 				7B2C9315170D8751005A74C8 /* ALAnimationViewController.h */,
@@ -241,7 +236,6 @@
 				7B2C930A170C6650005A74C8 /* DCFrameView.m in Sources */,
 				7B2C930B170C6650005A74C8 /* DCIntrospect.m in Sources */,
 				7B2C930C170C6650005A74C8 /* DCStatusBarOverlay.m in Sources */,
-				7B2C9311170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m in Sources */,
 				7B2C9314170D7D66005A74C8 /* ALIntrinsicSizeViewController.m in Sources */,
 				7B2C9317170D8751005A74C8 /* ALAnimationViewController.m in Sources */,
 				7B2C931A170D96D2005A74C8 /* ALTwoButtonsInCodeViewController.m in Sources */,

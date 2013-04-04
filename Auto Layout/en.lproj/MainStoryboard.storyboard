@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J4o-S7-Lio" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="838" y="81"/>
+            <point key="canvasLocation" x="356" y="81"/>
         </scene>
         <!--View Controller - 2 Buttons in IB-->
         <scene sceneID="Czf-ze-0Bp">
@@ -349,28 +349,8 @@
                                             <segue destination="wUu-Vy-NS3" kind="push" id="6mU-Nh-O2T"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="qsI-I2-ZoA" style="IBUITableViewCellStyleDefault" id="6jY-t5-w5G">
-                                        <rect key="frame" x="0.0" y="264" width="320" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Constraints in Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qsI-I2-ZoA">
-                                                    <rect key="frame" x="10" y="0.0" width="280" height="43"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
-                                            </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <connections>
-                                            <segue destination="tsC-vP-jiE" kind="push" id="nnZ-g7-377"/>
-                                        </connections>
-                                    </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="d4e-ft-aVp" style="IBUITableViewCellStyleDefault" id="gsH-h8-SxO">
-                                        <rect key="frame" x="0.0" y="308" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="264" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
@@ -397,7 +377,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S7I-9c-hC1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4" y="81"/>
+            <point key="canvasLocation" x="-261" y="81"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ScV-9B-iog">
@@ -412,7 +392,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BL3-uw-Det" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-608" y="81"/>
+            <point key="canvasLocation" x="-839" y="81"/>
         </scene>
         <!--Intrinsic Size View Controller - Intrinsic Size-->
         <scene sceneID="dot-M0-dZ6">
@@ -584,45 +564,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2eT-pl-AEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-162" y="-804"/>
-        </scene>
-        <!--Constraints In Code View Controller - Constraints in Code-->
-        <scene sceneID="xrt-lc-msY">
-            <objects>
-                <viewController id="tsC-vP-jiE" customClass="ALConstraintsInCodeViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="O1B-Vj-jwu">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBf-K7-G86">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="efS-bG-gGe"/>
-                                    <constraint firstAttribute="width" constant="88" id="fWF-WM-WWT"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Fixed">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="uBf-K7-G86" secondAttribute="bottom" constant="26" id="2LE-NY-3OE"/>
-                            <constraint firstAttribute="trailing" secondItem="uBf-K7-G86" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="lCZ-Ht-lzj"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Constraints in Code" id="2Vn-ub-A32"/>
-                    <connections>
-                        <outlet property="fixedButton" destination="uBf-K7-G86" id="VxR-NS-uWG"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eFt-h8-yLQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="356" y="-804"/>
+            <point key="canvasLocation" x="356" y="-792"/>
         </scene>
     </scenes>
     <classes>
@@ -635,12 +577,6 @@
                 <relationship kind="action" name="toggleAnimation:"/>
                 <relationship kind="outlet" name="heightConstraint" candidateClass="NSLayoutConstraint"/>
                 <relationship kind="outlet" name="widthConstraint" candidateClass="NSLayoutConstraint"/>
-            </relationships>
-        </class>
-        <class className="ALConstraintsInCodeViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ALConstraintsInCodeViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="fixedButton" candidateClass="UIButton"/>
             </relationships>
         </class>
         <class className="ALIntrinsicSizeViewController" superclassName="UIViewController">
