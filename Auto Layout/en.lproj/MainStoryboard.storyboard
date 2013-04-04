@@ -140,16 +140,55 @@
             </objects>
             <point key="canvasLocation" x="838" y="81"/>
         </scene>
-        <!--View Controller - 2-->
+        <!--Animation View Controller - Animation-->
         <scene sceneID="pY8-H2-nPU">
             <objects>
-                <viewController id="wUu-Vy-NS3" sceneMemberID="viewController">
+                <viewController id="wUu-Vy-NS3" customClass="ALAnimationViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uii-Ap-GuN">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jXA-eT-suU">
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="750" constant="44" type="user" id="dhU-FY-84h"/>
+                                    <constraint firstAttribute="height" priority="750" constant="44" type="user" id="oYg-I1-9jC"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qB-TR-jWE">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" type="user" id="ok7-8a-tmU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Toggle Animation">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleAnimation:" destination="wUu-Vy-NS3" eventType="touchUpInside" id="RUL-NZ-aN5"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5qB-TR-jWE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jXA-eT-suU" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="0GT-jz-jdw"/>
+                            <constraint firstItem="5qB-TR-jWE" firstAttribute="leading" secondItem="uii-Ap-GuN" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="IRf-tc-GkB"/>
+                            <constraint firstItem="jXA-eT-suU" firstAttribute="top" secondItem="uii-Ap-GuN" secondAttribute="top" constant="20" symbolic="YES" type="user" id="JvB-zE-IOj"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jXA-eT-suU" secondAttribute="trailing" constant="20" symbolic="YES" type="user" id="MGJ-3E-NUe"/>
+                            <constraint firstItem="jXA-eT-suU" firstAttribute="leading" secondItem="uii-Ap-GuN" secondAttribute="leading" constant="20" symbolic="YES" type="user" id="j8e-52-wc5"/>
+                            <constraint firstAttribute="trailing" secondItem="5qB-TR-jWE" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="jSp-VK-cxh"/>
+                            <constraint firstAttribute="bottom" secondItem="5qB-TR-jWE" secondAttribute="bottom" constant="20" symbolic="YES" type="user" id="o9b-rB-fTr"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="2" id="r5X-B8-YfW"/>
+                    <navigationItem key="navigationItem" title="Animation" id="r5X-B8-YfW"/>
+                    <connections>
+                        <outlet property="animatedView" destination="jXA-eT-suU" id="GSA-tm-Elv"/>
+                        <outlet property="heightConstraint" destination="oYg-I1-9jC" id="00V-4V-ip7"/>
+                        <outlet property="widthConstraint" destination="dhU-FY-84h" id="JpJ-WF-uGd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="re0-fF-AXX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -170,7 +209,7 @@
             </objects>
             <point key="canvasLocation" x="356" y="959"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Table View Controller - Auto Layout Examples-->
         <scene sceneID="Txv-lA-6nQ">
             <objects>
                 <tableViewController id="jM0-dQ-Yl5" sceneMemberID="viewController">
@@ -306,7 +345,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pkp-Gb-JXs">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Animation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pkp-Gb-JXs">
                                                     <rect key="frame" x="10" y="0.0" width="280" height="43"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -323,7 +362,7 @@
                             </tableViewSection>
                         </sections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="8Rg-NH-FbG"/>
+                    <navigationItem key="navigationItem" title="Auto Layout Examples" id="8Rg-NH-FbG"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S7I-9c-hC1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -635,6 +674,15 @@
     <classes>
         <class className="ALAmbiguousLayoutViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ALAmbiguousLayoutViewController.h"/>
+        </class>
+        <class className="ALAnimationViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ALAnimationViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="toggleAnimation:"/>
+                <relationship kind="outlet" name="animatedView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="heightConstraint" candidateClass="NSLayoutConstraint"/>
+                <relationship kind="outlet" name="widthConstraint" candidateClass="NSLayoutConstraint"/>
+            </relationships>
         </class>
         <class className="ALConstraintsInCodeViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ALConstraintsInCodeViewController.h"/>
