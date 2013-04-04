@@ -26,7 +26,6 @@
 		7B5D13D71700B896006558D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D13D61700B896006558D0 /* Default@2x.png */; };
 		7B5D13D91700B896006558D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D13D81700B896006558D0 /* Default-568h@2x.png */; };
 		7B5D13DC1700B896006558D0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D13DA1700B896006558D0 /* MainStoryboard.storyboard */; };
-		7B5D13DF1700B896006558D0 /* ALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D13DE1700B896006558D0 /* ALViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,8 +61,6 @@
 		7B5D13D61700B896006558D0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7B5D13D81700B896006558D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7B5D13DB1700B896006558D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7B5D13DD1700B896006558D0 /* ALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALViewController.h; sourceTree = "<group>"; };
-		7B5D13DE1700B896006558D0 /* ALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +130,6 @@
 				7B5D13D11700B896006558D0 /* ALAppDelegate.h */,
 				7B5D13D21700B896006558D0 /* ALAppDelegate.m */,
 				7B5D13DA1700B896006558D0 /* MainStoryboard.storyboard */,
-				7B5D13DD1700B896006558D0 /* ALViewController.h */,
-				7B5D13DE1700B896006558D0 /* ALViewController.m */,
 				7B2C92FA170C5D64005A74C8 /* ALAmbiguousLayoutViewController.h */,
 				7B2C92FB170C5D64005A74C8 /* ALAmbiguousLayoutViewController.m */,
 				7B2C9312170D7D66005A74C8 /* ALIntrinsicSizeViewController.h */,
@@ -230,7 +225,6 @@
 			files = (
 				7B5D13CF1700B896006558D0 /* main.m in Sources */,
 				7B5D13D31700B896006558D0 /* ALAppDelegate.m in Sources */,
-				7B5D13DF1700B896006558D0 /* ALViewController.m in Sources */,
 				7B2C92FC170C5D64005A74C8 /* ALAmbiguousLayoutViewController.m in Sources */,
 				7B2C9309170C6650005A74C8 /* DCCrossHairView.m in Sources */,
 				7B2C930A170C6650005A74C8 /* DCFrameView.m in Sources */,
