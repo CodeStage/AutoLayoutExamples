@@ -273,7 +273,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ddr-2R-8du">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Unsatisfiable Constraints" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ddr-2R-8du">
                                                     <rect key="frame" x="10" y="0.0" width="280" height="43"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -282,6 +282,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="N1R-8F-DwD" kind="push" id="tJe-ro-i2z"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="pkp-Gb-JXs" style="IBUITableViewCellStyleDefault" id="2NO-Jo-Qrb">
                                         <rect key="frame" x="0.0" y="264" width="320" height="44"/>
@@ -324,6 +327,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BL3-uw-Det" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-608" y="81"/>
+        </scene>
+        <!--View Controller - Unsatisfiable Constraints-->
+        <scene sceneID="dot-M0-dZ6">
+            <objects>
+                <viewController id="N1R-8F-DwD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xft-2W-fGx">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wo-GG-NTE">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" type="user" id="o9K-Y4-0aL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6wo-GG-NTE" firstAttribute="leading" secondItem="Xft-2W-fGx" secondAttribute="leading" priority="750" constant="100" type="user" id="eka-8K-hvf"/>
+                            <constraint firstAttribute="trailing" secondItem="6wo-GG-NTE" secondAttribute="trailing" type="user" id="mws-eb-QPI"/>
+                            <constraint firstItem="6wo-GG-NTE" firstAttribute="top" secondItem="Xft-2W-fGx" secondAttribute="top" constant="175" id="x1r-q1-RLR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Unsatisfiable Constraints" id="s9v-Hl-jfI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2eT-pl-AEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-162" y="-804"/>
         </scene>
         <!--Constraints In Code View Controller - Constraints in Code-->
         <scene sceneID="xrt-lc-msY">
@@ -451,6 +489,23 @@
             <point key="canvasLocation" x="376" y="1771"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="ALConstraintsInCodeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ALConstraintsInCodeViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="fixedButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="ALSpringsAndStrutsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ALSpringsAndStrutsViewController.h"/>
+        </class>
+        <class className="ALViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ALViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
