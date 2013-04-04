@@ -16,6 +16,7 @@
 		7B2C9311170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9310170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m */; };
 		7B2C9314170D7D66005A74C8 /* ALIntrinsicSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9313170D7D66005A74C8 /* ALIntrinsicSizeViewController.m */; };
 		7B2C9317170D8751005A74C8 /* ALAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9316170D8751005A74C8 /* ALAnimationViewController.m */; };
+		7B2C931A170D96D2005A74C8 /* ALTwoButtonsInCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C9319170D96D2005A74C8 /* ALTwoButtonsInCodeViewController.m */; };
 		7B5D13C31700B896006558D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D13C21700B896006558D0 /* UIKit.framework */; };
 		7B5D13C51700B896006558D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D13C41700B896006558D0 /* Foundation.framework */; };
 		7B5D13C71700B896006558D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D13C61700B896006558D0 /* CoreGraphics.framework */; };
@@ -48,6 +49,8 @@
 		7B2C9313170D7D66005A74C8 /* ALIntrinsicSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALIntrinsicSizeViewController.m; sourceTree = "<group>"; };
 		7B2C9315170D8751005A74C8 /* ALAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAnimationViewController.h; sourceTree = "<group>"; };
 		7B2C9316170D8751005A74C8 /* ALAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAnimationViewController.m; sourceTree = "<group>"; };
+		7B2C9318170D96D2005A74C8 /* ALTwoButtonsInCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTwoButtonsInCodeViewController.h; sourceTree = "<group>"; };
+		7B2C9319170D96D2005A74C8 /* ALTwoButtonsInCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTwoButtonsInCodeViewController.m; sourceTree = "<group>"; };
 		7B5D13BF1700B896006558D0 /* Auto Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5D13C21700B896006558D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7B5D13C41700B896006558D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +146,8 @@
 				7B2C9313170D7D66005A74C8 /* ALIntrinsicSizeViewController.m */,
 				7B2C9315170D8751005A74C8 /* ALAnimationViewController.h */,
 				7B2C9316170D8751005A74C8 /* ALAnimationViewController.m */,
+				7B2C9318170D96D2005A74C8 /* ALTwoButtonsInCodeViewController.h */,
+				7B2C9319170D96D2005A74C8 /* ALTwoButtonsInCodeViewController.m */,
 			);
 			path = "Auto Layout";
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 				7B2C9311170C6EE4005A74C8 /* ALConstraintsInCodeViewController.m in Sources */,
 				7B2C9314170D7D66005A74C8 /* ALIntrinsicSizeViewController.m in Sources */,
 				7B2C9317170D8751005A74C8 /* ALAnimationViewController.m in Sources */,
+				7B2C931A170D96D2005A74C8 /* ALTwoButtonsInCodeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
